@@ -1,4 +1,7 @@
-﻿using System;
+﻿//////////////////////////
+/// App logic goes here //
+//////////////////////////
+using System;
 
 namespace MohunkyTimer
 {
