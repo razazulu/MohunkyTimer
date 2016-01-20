@@ -18,7 +18,7 @@ namespace MohunkyTimer.Droid.Fragments
         {
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-            View rootView = inflater.Inflate(Resource.Layout.FragmentLayout, container, false);
+            View rootView = inflater.Inflate(Resource.Layout.TimerFragmentLayout, container, false);
             return rootView;
         }
     }

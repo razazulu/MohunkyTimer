@@ -11,6 +11,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MohunkyTimer", "MohunkyTime
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MohunkyTimer\MohunkyTimer\MohunkyTimer.projitems*{8776eeec-02c5-42dc-86ee-405ce9f8c7c9}*SharedItemsImports = 4
+		MohunkyTimer\MohunkyTimer\MohunkyTimer.projitems*{90603118-52a7-43e5-8167-d36029655b3e}*SharedItemsImports = 4
 		MohunkyTimer\MohunkyTimer\MohunkyTimer.projitems*{1a7b6ed9-8c8b-4036-b4e2-ff231fe27c64}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

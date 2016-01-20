@@ -1,13 +1,16 @@
 using Android.Content;
 using Android.Content.Res;
 using Android.Graphics;
+using Android.Runtime;
 using Android.Util;
 using Android.Views;
+using Android.Widget;
 
 namespace MohunkyTimer.Droid.CircularProgressBar
 {
     public class CircularProgressBar : View
     {
+        
         #region Fields
 
         //ProgressBar's line thickness
@@ -36,16 +39,17 @@ namespace MohunkyTimer.Droid.CircularProgressBar
             rectF = new RectF();
             TypedArray typedArray = context.Theme.ObtainStyledAttributes(
                     attrs,
-                    Resources.styleable.CircleProgressBar,
+                    Resource.Styleable.CircleProgressBar,
                     0, 0);
+
             //Reading values from the XML layout
             try
             {
-                strokeWidth = typedArray.GetDimension(Resources.styleable.CircleProgressBar_progressBarThickness, strokeWidth);
-                progress = typedArray.GetFloat(Resources.styleable.CircleProgressBar_progress, progress);
-                color = typedArray.GetInt(Resources.styleable.CircleProgressBar_progressbarColor, color);
-                min = typedArray.GetInt(Resources.styleable.CircleProgressBar_min, min);
-                max = typedArray.GetInt(Resources.styleable.CircleProgressBar_max, max);
+                strokeWidth = typedArray.GetDimension(Resource.Styleable.CircleProgressBar_progressBarThickness, strokeWidth);
+                progress = typedArray.GetFloat(Resource.Styleable.CircleProgressBar_progress, progress);
+                color = typedArray.GetColor(Resource.Styleable.CircleProgressBar_progressbarColor, color);
+                min = typedArray.GetInt(Resource.Styleable.CircleProgressBar_min, min);
+                max = typedArray.GetInt(Resource.Styleable.CircleProgressBar_max, max);
             }
             finally
             {
@@ -144,5 +148,14 @@ namespace MohunkyTimer.Droid.CircularProgressBar
         }
 
         #endregion
+    }
+
+    public class TestTextView : TextView
+    {
+        public TestTextView(Context context, IAttributeSet attrs)
+            : base(context, attrs)
+        {
+            
+        }
     }
 }
