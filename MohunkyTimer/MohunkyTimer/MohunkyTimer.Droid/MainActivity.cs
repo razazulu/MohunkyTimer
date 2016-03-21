@@ -7,6 +7,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+ujhiyuhkjhkjhkj
+
 namespace MohunkyTimer.Droid
 {
 	[Activity (Label = "MohunkyTimer.Droid", MainLauncher = true, Icon = "@drawable/icon")]
