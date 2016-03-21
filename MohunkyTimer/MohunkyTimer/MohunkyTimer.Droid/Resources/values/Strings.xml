@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">MohunkyTimer.Droid</string>
+	<string name="select_color">Select Colour</string>
+	<string name="app_name">Mohunky Timer</string>
+
+  <string name="tab_alarm_text">Alarm</string>
+  <string name="tab_timer_text">Timer</string>
+  <string name="tab_stopwatch_text">Stopwatch</string>
+  
 </resources>

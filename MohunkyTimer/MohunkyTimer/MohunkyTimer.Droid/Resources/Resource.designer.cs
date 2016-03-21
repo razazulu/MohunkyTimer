@@ -31,6 +31,21 @@ namespace MohunkyTimer.Droid
 		public partial class Attribute
 		{
 			
+			// aapt resource value: 0x7f010001
+			public const int max = 2130771969;
+			
+			// aapt resource value: 0x7f010000
+			public const int min = 2130771968;
+			
+			// aapt resource value: 0x7f010002
+			public const int progress = 2130771970;
+			
+			// aapt resource value: 0x7f010004
+			public const int progressBarThickness = 2130771972;
+			
+			// aapt resource value: 0x7f010003
+			public const int progressbarColor = 2130771971;
+			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -60,8 +75,23 @@ namespace MohunkyTimer.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050005
+			public const int button = 2131034117;
+			
+			// aapt resource value: 0x7f050002
+			public const int custom_progressBar = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int fragmentContainer = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int seekBar_progress = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int seekBar_thickness = 2131034116;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int textView = 2131034112;
 			
 			static Id()
 			{
@@ -77,7 +107,13 @@ namespace MohunkyTimer.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int DebugFragmentLayout = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int MainActivity = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int TimerFragmentLayout = 2130903042;
 			
 			static Layout()
 			{
@@ -96,7 +132,16 @@ namespace MohunkyTimer.Droid
 			public const int app_name = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int select_color = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int tab_alarm_text = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int tab_stopwatch_text = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int tab_timer_text = 2130968579;
 			
 			static String()
 			{
@@ -104,6 +149,41 @@ namespace MohunkyTimer.Droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] CircleProgressBar = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972};
+			
+			// aapt resource value: 1
+			public const int CircleProgressBar_max = 1;
+			
+			// aapt resource value: 0
+			public const int CircleProgressBar_min = 0;
+			
+			// aapt resource value: 2
+			public const int CircleProgressBar_progress = 2;
+			
+			// aapt resource value: 4
+			public const int CircleProgressBar_progressBarThickness = 4;
+			
+			// aapt resource value: 3
+			public const int CircleProgressBar_progressbarColor = 3;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
